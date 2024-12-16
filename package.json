@@ -1,18 +1,19 @@
 {
-  "name": "amazon-seller-dashboard-backend",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "axios": "^1.7.9",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "pg": "^8.13.1"
-  }
+    "name": "amazon-seller-dashboard-backend",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest",
+        "build": "react-scripts build"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "pg": "^8.13.1",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-scripts": "^5.0.1"
+    }
 }
